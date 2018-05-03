@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import logo from '../assets/images/logo.png'
+import PropTypes from 'prop-types';
 
 const Header = (props) => (
     <header id="header" className="alt">
@@ -13,7 +14,7 @@ const Header = (props) => (
 )
 
 Header.propTypes = {
-    onToggleMenu: React.PropTypes.func
+    onToggleMenu: PropTypes.func
 }
 
 export default Header
