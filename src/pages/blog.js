@@ -1,5 +1,5 @@
 import React from "react";
-import PostLink from "../components/postlink";
+import PostLink from "../components/PostLink";
 
 const Blog = ({
                        data: {
