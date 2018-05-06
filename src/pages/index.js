@@ -1,7 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Banner from '../components/Banner'
-import PropTypes from 'prop-types';
 
 class HomeIndex extends React.Component {
     render() {

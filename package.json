@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-forty",
-  "description": "Gatsby Starter - Forty by HTML5 UP",
+  "name": "ben-mallinson-website",
+  "description": "Ben Mallinson - Freelance Web Developer",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Ben Mallinson",
   "dependencies": {
     "gatsby": "^1.9.235",
     "gatsby-image": "^1.0.42",
@@ -17,19 +17,7 @@
     "gatsby-source-filesystem": "^1.5.27",
     "gatsby-transformer-remark": "^1.7.37",
     "gatsby-transformer-sharp": "^1.6.22",
-    "lodash": "^4.17.4",
-    "netlify-cms": "^1.7.0",
-    "react-particles-js": "^2.1.2"
-  },
-  "homepage": "https://github.com/ChangoMan/gatsby-starter-forty",
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ChangoMan/gatsby-starter-forty.git"
+    "lodash": "^4.17.4"
   },
   "scripts": {
     "dev": "gatsby develop",

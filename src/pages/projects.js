@@ -13,7 +13,7 @@ const Projects = (props) => (
             <meta name="description" content="Generic Page" />
         </Helmet>
 
-        <div id="main" className="alt">
+        <div id="main">
             <section id="one">
                 <div className="inner">
                     <header className="major">
