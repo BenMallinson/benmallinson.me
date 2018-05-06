@@ -9,7 +9,7 @@
 	body, input, select, textarea {
 		color: _palette(fg);
 		font-family: _font(family);
-		font-size: 17pt;
+		font-size: 26pt;
 		font-weight: _font(weight);
 		letter-spacing: _font(letter-spacing);
 		line-height: 1.65;
@@ -56,7 +56,9 @@
 	}
 
 	p {
-		margin: 0 0 _size(element-margin) 0;
+		margin: 0 0 .85em 0;
+		font-size: 1.25em;
+		line-height: 1.5em;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -77,6 +79,10 @@
 
 	h2 {
 		font-size: 1.75em;
+		>small {
+			font-size: 0.7em;
+			font-weight: 400;
+		}
 	}
 
 	h3 {

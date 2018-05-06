@@ -1,16 +1,11 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
-import superdry from '../assets/images/superdry-logo.png'
-import wbk from '../assets/images/wbk-logo.png'
-import ambiedrew from '../assets/images/ambiedrew-logo.png'
-import textlocal from '../assets/images/textlocal-logo.png'
-
 const Projects = (props) => (
     <div>
         <Helmet>
-            <title>Generic - Forty by HTML5 UP</title>
-            <meta name="description" content="Generic Page" />
+            <title>Projects - Ben Mallinson</title>
+            <meta name="description" content="Web Development Projects worked on by Ben Mallinson"/>
         </Helmet>
 
         <div id="main">
@@ -19,24 +14,42 @@ const Projects = (props) => (
                     <header className="major">
                         <h1>Projects</h1>
                     </header>
-                    <p>I've worked on a lot of projects over the past 5 years working as a web developer. Here are some of my favourites.</p>
-            <hr/>
+                    <p>I've worked on a lot of projects over the past 5 years working as a web developer. Here are some
+                        of my favourites.</p>
+                    <hr/>
                     <div className="row">
-                        <div className="6u 12u$(small)">
-                            <h3>Superdry<span className="image left"><img src={superdry}/></span></h3>
-                            <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+                        <div className="12u">
+                            <h2><a href="https://www.superdry.com">Superdry</a>
+                                <small> (Mootools, Joomla!)</small>
+                            </h2>
+                            <p className="boldBody">Continued development on high traffic, high revenue e-commerce
+                                website</p>
+                            <p>Suggested processes and technologies to drive the department forward</p>
+                            <p>Worked with designers to implement UI/UX improvements to the site</p>
                         </div>
-                        <div className="6u 12u$(small)">
-                            <h3>Textlocal<span className="image left"><img src={textlocal}/></span></h3>
-                            <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor. Ante commodo blandit adipiscing integer semper orci eget. Faucibus commodo adipiscing mi eu nullam accumsan morbi arcu ornare odio mi adipiscing nascetur lacus ac interdum morbi accumsan vis mi accumsan ac praesent.</p>
+                        <div className="12u">
+                            <h2><a href="https://www.textlocal.com">Textlocal</a>
+                                <small> (JQuery, Laravel)</small>
+                            </h2>
+                            <p>Led a team of developers to create a customer management tool</p>
+                            <p>Developed lightweight mobile applications to extend product offering</p>
+                            <p>Troubleshooted customer issues to achieve a satisfactory resolution</p>
                         </div>
-                        <div className="6u 12u$(small)">
-                            <h3>Worcestershire Black Knights<span className="image left"><img src={wbk}/></span></h3>
-                            <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor. Ante commodo blandit adipiscing integer semper orci eget. Faucibus commodo adipiscing mi eu nullam accumsan morbi arcu ornare odio mi adipiscing nascetur lacus ac interdum morbi accumsan vis mi accumsan ac praesent.</p>
+                        <div className="12u">
+                            <h2><a href="https://www.worcestershireblackknights.com">Worcestershire Black Knights</a>
+                                <small> (Wordpress, Photoshop)</small>
+                            </h2>
+                            <p>Developed Wordpress site for team promotion when founded</p>
+                            <p>Designed and created digital assets for marketing and branding</p>
+                            <p>Managed social media presence and SEO to optimize reach on a limited budget</p>
                         </div>
-                        <div className="6u 12u$(small)">
-                            <h3>AmbieDrew<span className="image left"><img src={ambiedrew}/></span></h3>
-                            <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor. Ante commodo blandit adipiscing integer semper orci eget. Faucibus commodo adipiscing mi eu nullam accumsan morbi arcu ornare odio mi adipiscing nascetur lacus ac interdum morbi accumsan vis mi accumsan ac praesent.</p>
+                        <div className="12u">
+                            <h2><a href="http://worcestermedialab.com/">Worcester Media Lab</a>
+                                <small> (Cordova, JQuery)</small>
+                            </h2>
+                            <p>Led a team to a create mobile application for global vehicle manufacturer</p>
+                            <p>Managed relationship with client to ensure satisfactory project delivery</p>
+                            <p>Trained clients on how to use the mobile application for optimal performance</p>
                         </div>
                     </div>
                 </div>

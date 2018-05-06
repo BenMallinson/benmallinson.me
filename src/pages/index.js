@@ -4,16 +4,12 @@ import Banner from '../components/Banner'
 
 class HomeIndex extends React.Component {
     render() {
-        const siteTitle = this.props.data.site.siteMetadata.title
-        const siteDescription = this.props.data.site.siteMetadata.description
-
         return (
             <div>
                 <Helmet>
-                    <title>{siteTitle}</title>
-                    <meta name="description" content={siteDescription}/>
+                    <title>Home - Ben Mallinson</title>
+                    <meta name="description" content="Ben Mallinson - Experienced Full Stack Web Developer"/>
                 </Helmet>
-
                 <Banner/>
             </div>
         )
@@ -21,14 +17,3 @@ class HomeIndex extends React.Component {
 }
 
 export default HomeIndex
-
-export const pageQuery = graphql`
-    query PageQuery {
-        site {
-            siteMetadata {
-                title
-                description
-            }
-        }
-    }
-`

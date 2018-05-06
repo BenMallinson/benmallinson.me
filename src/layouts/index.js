@@ -42,6 +42,8 @@ class Template extends React.Component {
             <div className={`body ${this.state.loading} ${this.state.isMenuVisible ? 'is-menu-visible' : ''}`}>
                 <Helmet>
                     <link rel="stylesheet" href={withPrefix('skel.css')} />
+                    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+                    <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
                 </Helmet>
                 <div id="wrapper">
                     <Header onToggleMenu={this.handleToggleMenu} />
