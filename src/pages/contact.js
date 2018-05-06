@@ -16,8 +16,8 @@ const Contact = (props) => (
                         <h1>Contact</h1>
                     </header>
                     <div className="inner">
-                        <p>Please send any questions or enquiries you may have to <a
-                            href="mailto:ben@benmallinson.me?subject=Website Enquiry">ben@benmallinson.me</a> and I'll
+                        <p>Please send any questions or enquiries you may have to <strong><a
+                            href="mailto:ben@benmallinson.me?subject=Website Enquiry">ben@benmallinson.me</a></strong> and I'll
                             be happy to chat!</p>
                         <Social/>
                     </div>
