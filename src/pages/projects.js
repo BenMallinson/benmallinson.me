@@ -47,9 +47,9 @@ const Projects = (props) => (
                             <h2><a href="http://worcestermedialab.com/">Worcester Media Lab</a>
                                 <small> (Cordova, JQuery)</small>
                             </h2>
-                            <p>Led a team to a create mobile application for global vehicle manufacturer</p>
-                            <p>Managed relationships with client to ensure successful project delivery</p>
-                            <p>Trained clients on how to use the mobile application for optimal performance</p>
+                            <p>Led a team to a create mobile application for global vehicle manufacturer.</p>
+                            <p>Managed relationships with client to ensure successful project delivery.</p>
+                            <p>Trained clients on how to use the mobile application for optimal performance.</p>
                         </div>
                     </div>
                 </div>
