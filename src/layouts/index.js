@@ -5,6 +5,7 @@ import '../assets/scss/main.scss'
 import Header from '../components/Header'
 import Menu from '../components/Menu'
 import PropTypes from 'prop-types';
+import favicon from '../assets/images/favicon.ico'
 
 class Template extends React.Component {
 
@@ -42,8 +43,8 @@ class Template extends React.Component {
             <div className={`body ${this.state.loading} ${this.state.isMenuVisible ? 'is-menu-visible' : ''}`}>
                 <Helmet>
                     <link rel="stylesheet" href={withPrefix('skel.css')} />
-                    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
-                    <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+                    <link rel="shortcut icon" href={favicon} type="image/x-icon"/>
+                    <link rel="icon" href={favicon} type="image/x-icon"/>
                 </Helmet>
                 <div id="wrapper">
                     <Header onToggleMenu={this.handleToggleMenu} />
