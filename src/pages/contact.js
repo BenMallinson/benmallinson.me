@@ -1,15 +1,10 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 import Social from '../components/Social'
+import Layout from '../components/Layout'
 
 const Contact = (props) => (
-    <div>
-        <Helmet>
-            <title>Contact - Ben Mallinson</title>
-            <meta name="description" content="Get in contact with Ben Mallinson - Experienced Web Developer"/>
-        </Helmet>
-
-        <div id="main" className="alt">
+    <Layout>
+      <div id="main" className="alt">
             <section id="one">
                 <div className="inner">
                     <header className="major">
@@ -24,7 +19,7 @@ const Contact = (props) => (
                 </div>
             </section>
         </div>
-    </div>
+    </Layout>
 )
 
 export default Contact

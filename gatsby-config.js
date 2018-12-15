@@ -7,22 +7,15 @@ module.exports = {
   pathPrefix: '/',
   plugins: [
     {
-      resolve: `gatsby-transformer-remark`,
+      resolve: `gatsby-plugin-google-analytics`,
       options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 630,
-            },
-          },
-          "gatsby-remark-copy-linked-files",
-        ],
+        trackingId: "UA-50119001-5",
+        head: true,
+        anonymize: true,
+        respectDNT: true,
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sass`
+    `gatsby-plugin-sass`,
   ],
 }

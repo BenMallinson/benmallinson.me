@@ -1,13 +1,13 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { Link, withPrefix } from 'gatsby-link'
+import { withPrefix } from 'gatsby-link'
 import '../assets/scss/main.scss'
 import Header from '../components/Header'
 import Menu from '../components/Menu'
 import PropTypes from 'prop-types';
 import favicon from '../assets/images/favicon.ico'
 
-class Template extends React.Component {
+class Layout extends React.Component {
 
     constructor(props) {
         super(props)
@@ -48,7 +48,7 @@ class Template extends React.Component {
                 </Helmet>
                 <div id="wrapper">
                     <Header onToggleMenu={this.handleToggleMenu} />
-                        {children()}
+                        {children}
                 </div>
                 <Menu onToggleMenu={this.handleToggleMenu} />
             </div>
@@ -56,8 +56,8 @@ class Template extends React.Component {
     }
 }
 
-Template.propTypes = {
-    children: PropTypes.func
+Layout.propTypes = {
+    children: PropTypes.array
 }
 
-export default Template
+export default Layout

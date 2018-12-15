@@ -1,13 +1,8 @@
 import React from 'react'
-import Helmet from 'react-helmet'
+import Layout from '../components/Layout'
 
 const About = (props) => (
-    <div>
-        <Helmet>
-            <title>About - Ben Mallinson</title>
-            <meta name="description" content="About - Ben Mallinson" />
-        </Helmet>
-
+    <Layout>
         <div id="main">
             <section id="one">
                 <div className="inner">
@@ -18,13 +13,13 @@ const About = (props) => (
 
                     <p>I'm a full stack developer for <strong><a href="https://drpgroup.com">drpgroup</a></strong>, a leading digital agency based in Hartlebury, England. I also do freelance web projects for a variety of clients ranging from local companies to global corporations.</p>
 
-                    <p>I am a massive Baltimore Ravens fan and love the NFL. In my spare time, I am the Vice Chairman for the <strong><a href="http://www.worcestershireblackknights.co.uk">Worcestershire Black Knights American Football Team</a></strong>, that I helped found in 2013. I don't just enjoy building excellent web applications, I am also love developing small indie games using Unity. Also, <strong>metal</strong>.</p>
+                  <p> I have carried out a range of freelance projects for clients including website creation, server administration, developing cross platform mobile applications with Cordova and React Native and social media management.</p>
 
                     <p>Please <strong><a href="/contact">contact</a></strong> me if you want to work on a project together, or have any questions!</p>
                 </div>
             </section>
         </div>
-    </div>
+    </Layout>
 )
 
 export default About
